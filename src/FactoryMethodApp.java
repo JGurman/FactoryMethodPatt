@@ -3,7 +3,7 @@ import java.util.Date;
 public class FactoryMethodApp {
 
     public static void main(String[] args) {
-        WatchMaker maker = new DigitalWatchMaker();
+        WatchMaker maker = new RomeWatchMaker();
         Watch watch = maker.createWatch();
         watch.showTime();
     }
